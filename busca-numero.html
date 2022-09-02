@@ -1,0 +1,22 @@
+<html>
+<script>
+    //1- Receber um numero como parametro
+    //2- Executar um for na lista e para cada elemento verificar se é igual ao numero buscado
+    //3- Quando encontrar, interromper a execução e retornar true
+    //4-Se chegar até o fim e não encontrar, retornat false
+
+    let lista = [36, 34, 9, 1, 60, 61, 33, 31, 2];
+
+    function verificaNumero(numero) {
+        let existe = false;
+        for (let i = 0; i < lista.length; i++) {
+            if (lista[i] === numero) {
+                existe = true;
+                break;
+            }
+        }
+        return existe;
+    }
+</script>
+
+</html>
